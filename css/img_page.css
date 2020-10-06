@@ -1,0 +1,108 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	/* background-color: black; */
+	background-image: url(../img/timg.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 100%;
+}
+#background {
+
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/timg.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 100%;
+
+}
+#left-part {
+	/* background-color: white; */
+	background:rgba(255, 255, 255, 0.2);
+	width: 27%;
+	height: 95%;
+	margin-top: 20px;
+	/* margin-bottom: 80px; */
+	margin-left: 30px;
+	padding: 10px;
+	float: left;
+}
+#right-part {
+	/* background-color: white; */
+	background:rgba(255, 255, 255, 0.2);
+	width: 60%;
+	height: 100%;
+	float: left;
+	margin-top: 20px;
+	/* margin-bottom: 80px; */
+	margin-left: 30px;
+	padding: 20px;
+}
+#left-title {
+	width: 100%;
+	height: 30px;
+}
+#left-context {
+	/* background-color: aqua; */
+	width: 100%;
+	height: inherit;
+	margin-top: 10px;
+}
+#audio {
+	width: 100%;
+	height: 30px;
+}
+
+.left-title-button {
+	width: 20%;
+	height: 100%;
+	float: left;
+	
+/*按钮样式*/
+/*	border-width: 0px; /* 边框宽度 */
+/*	border-radius: 3px; /* 边框半径 */
+/*	background: burlywood; /* 背景颜色 */
+/*	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+/*	outline: none; /* 不显示轮廓线 */
+/*	font-family: Microsoft YaHei; /* 设置字体 */
+/*	color: green; /* 字体颜色 */
+/*	font-size: 12px; /* 字体大小 */
+
+	font-size: 12px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: transparent;
+    font-family: Muli,'Helvetica Neue','Hiragino Sans GB','WenQuanYi Micro Hei','Microsoft Yahei',sans-serif !important;
+}
+.left-title-button:hover { /* 鼠标移入按钮范围时改变颜色 */
+	background: rgba(0, 0, 0, 0.2);
+}
+.left-table {
+	width: 100%;
+	height: fit-content;
+}
+.left-row {
+	width: 100%;
+	height: 20px;
+	
+	//表格样式
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	/* background-color: #ffffff; */
+	background-color: transparent;
+	font-family: Muli,'Helvetica Neue','Hiragino Sans GB','WenQuanYi Micro Hei','Microsoft Yahei',sans-serif !important;
+}
+.left-row:hover {
+	background: rgba(0, 0, 0, 0.1);
+}
+/* //用于解决float对齐问题
+#compare-part { 
+	background-color: red;
+	width: 1%;
+	height: inherit;
+} */
