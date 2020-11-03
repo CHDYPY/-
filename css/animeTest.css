@@ -1,0 +1,24 @@
+.blue {
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+	top: 100px;
+}
+
+.green {
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	top: 200px;
+}
+
+.red {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	top: 300px;
+}
+.el {
+	position: absolute;
+	left: 300px;
+}
